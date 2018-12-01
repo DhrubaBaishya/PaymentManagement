@@ -1,0 +1,15 @@
+[10-Jul-2018 00:02:48 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/qqiuckmx97xd/public_html/main/common/connection.php on line 9
+[09-Jul-2018 19:07:09 UTC] PHP Warning:  include(common/setup.php): failed to open stream: No such file or directory in /home/qqiuckmx97xd/public_html/login.php on line 2
+[09-Jul-2018 19:07:09 UTC] PHP Warning:  include(): Failed opening 'common/setup.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/qqiuckmx97xd/public_html/login.php on line 2
+[09-Jul-2018 19:07:09 UTC] PHP Warning:  include(common/connection.php): failed to open stream: No such file or directory in /home/qqiuckmx97xd/public_html/login.php on line 3
+[09-Jul-2018 19:07:09 UTC] PHP Warning:  include(): Failed opening 'common/connection.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/qqiuckmx97xd/public_html/login.php on line 3
+[09-Jul-2018 19:07:09 UTC] PHP Warning:  include(common/constant.php): failed to open stream: No such file or directory in /home/qqiuckmx97xd/public_html/login.php on line 4
+[09-Jul-2018 19:07:09 UTC] PHP Warning:  include(): Failed opening 'common/constant.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/qqiuckmx97xd/public_html/login.php on line 4
+[09-Jul-2018 19:07:09 UTC] PHP Notice:  Undefined variable: conn in /home/qqiuckmx97xd/public_html/login.php on line 7
+[09-Jul-2018 19:07:09 UTC] PHP Warning:  Use of undefined constant CHECK_USER_EXISTENCE - assumed 'CHECK_USER_EXISTENCE' (this will throw an Error in a future version of PHP) in /home/qqiuckmx97xd/public_html/login.php on line 7
+[09-Jul-2018 19:07:09 UTC] PHP Warning:  mysqli_prepare() expects parameter 1 to be mysqli, null given in /home/qqiuckmx97xd/public_html/login.php on line 7
+[10-Jul-2018 00:45:37 Asia/Kolkata] PHP Warning:  session_set_cookie_params(): Cannot change session cookie parameters when session is active in /home/qqiuckmx97xd/public_html/main/common/constant.php on line 3
+[10-Jul-2018 00:45:41 Asia/Kolkata] PHP Warning:  session_set_cookie_params(): Cannot change session cookie parameters when session is active in /home/qqiuckmx97xd/public_html/main/common/constant.php on line 3
+[10-Jul-2018 00:45:42 Asia/Kolkata] PHP Warning:  session_set_cookie_params(): Cannot change session cookie parameters when session is active in /home/qqiuckmx97xd/public_html/main/common/constant.php on line 3
+[17-Jul-2018 20:48:06 Asia/Kolkata] PHP Notice:  Undefined index: username in /home/qqiuckmx97xd/public_html/login.php on line 5
+[17-Jul-2018 20:48:06 Asia/Kolkata] PHP Notice:  Undefined index: password in /home/qqiuckmx97xd/public_html/login.php on line 6

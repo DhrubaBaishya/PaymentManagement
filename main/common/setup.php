@@ -1,0 +1,13 @@
+<?php
+date_default_timezone_set('Asia/Kolkata');
+define('APP_NAME',"PayMan");
+define('IP','pay-man.in');
+define('COMMON_LINK','http://'.IP);
+define('LOGIN_SCREEN',COMMON_LINK);
+define('DASHBOARD',COMMON_LINK.'/main');
+define('MAKE_ORDER',COMMON_LINK.'/main/createorder');
+define('MANAGE_ORDERS',COMMON_LINK.'/main/orders');
+define('MANAGE_ITEMS',COMMON_LINK.'/main/items');
+define('EARNINGS',COMMON_LINK.'/main/earnings');
+define('MANAGE_ACCOUNTS',COMMON_LINK.'/main/accounts');
+?>

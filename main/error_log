@@ -1,0 +1,21 @@
+[10-Jul-2018 00:32:30 Asia/Kolkata] PHP Notice:  Undefined index: username in /home/qqiuckmx97xd/public_html/main/index.php on line 5
+[10-Jul-2018 00:34:44 Asia/Kolkata] PHP Notice:  Undefined index: user_id in /home/qqiuckmx97xd/public_html/main/index.php on line 5
+[10-Jul-2018 00:34:55 Asia/Kolkata] PHP Notice:  Undefined index: user_id in /home/qqiuckmx97xd/public_html/main/index.php on line 5
+[10-Jul-2018 00:35:30 Asia/Kolkata] PHP Notice:  Undefined index: userid in /home/qqiuckmx97xd/public_html/main/index.php on line 5
+[10-Jul-2018 00:37:34 Asia/Kolkata] PHP Notice:  Undefined index: userid in /home/qqiuckmx97xd/public_html/main/index.php on line 5
+[10-Jul-2018 00:45:42 Asia/Kolkata] PHP Warning:  session_set_cookie_params(): Cannot change session cookie parameters when session is active in /home/qqiuckmx97xd/public_html/main/common/constant.php on line 3
+[11-Jul-2018 02:00:10 Asia/Kolkata] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/qqiuckmx97xd/public_html/main/loadPersonPaymentList.php on line 70
+[12-Jul-2018 21:38:57 Asia/Kolkata] PHP Notice:  Undefined index: personName in /home/qqiuckmx97xd/public_html/main/addPersonPayment.php on line 7
+[12-Jul-2018 21:38:57 Asia/Kolkata] PHP Notice:  Undefined index: personAmount in /home/qqiuckmx97xd/public_html/main/addPersonPayment.php on line 8
+[12-Jul-2018 21:38:57 Asia/Kolkata] PHP Notice:  Undefined index: remark in /home/qqiuckmx97xd/public_html/main/addPersonPayment.php on line 9
+[13-Jul-2018 10:25:47 Asia/Kolkata] PHP Notice:  Undefined index: itemName in /home/qqiuckmx97xd/public_html/main/addItemPayment.php on line 7
+[13-Jul-2018 10:25:47 Asia/Kolkata] PHP Notice:  Undefined index: itemAmount in /home/qqiuckmx97xd/public_html/main/addItemPayment.php on line 8
+[13-Jul-2018 10:25:47 Asia/Kolkata] PHP Notice:  Undefined index: itemGst in /home/qqiuckmx97xd/public_html/main/addItemPayment.php on line 9
+[16-Jul-2018 23:19:10 Asia/Kolkata] PHP Notice:  Undefined index: itemDate in /home/qqiuckmx97xd/public_html/main/addItemPayment.php on line 10
+[13-Aug-2018 21:21:10 Asia/Kolkata] PHP Notice:  Undefined index: personPaymentListType in /home/qqiuckmx97xd/public_html/main/loadPersonPaymentList.php on line 5
+[13-Aug-2018 21:21:10 Asia/Kolkata] PHP Notice:  Undefined index: month in /home/qqiuckmx97xd/public_html/main/loadPersonPaymentList.php on line 6
+[13-Aug-2018 21:21:10 Asia/Kolkata] PHP Notice:  Undefined index: year in /home/qqiuckmx97xd/public_html/main/loadPersonPaymentList.php on line 7
+[13-Aug-2018 21:21:10 Asia/Kolkata] PHP Notice:  Undefined index: start in /home/qqiuckmx97xd/public_html/main/loadPersonPaymentList.php on line 8
+[13-Aug-2018 21:21:10 Asia/Kolkata] PHP Notice:  Undefined index: limit in /home/qqiuckmx97xd/public_html/main/loadPersonPaymentList.php on line 9
+[13-Aug-2018 21:21:25 Asia/Kolkata] PHP Notice:  Undefined index: month in /home/qqiuckmx97xd/public_html/main/loadItemPaymentList.php on line 5
+[13-Aug-2018 21:21:25 Asia/Kolkata] PHP Notice:  Undefined index: year in /home/qqiuckmx97xd/public_html/main/loadItemPaymentList.php on line 6

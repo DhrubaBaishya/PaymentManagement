@@ -1,0 +1,55 @@
+h4{
+	padding: 10px;
+	color: #ee6e73;
+}
+h6{
+	font-size: 20px;
+	font-weight: bold;
+	color: #ee6e73;
+}
+.itemDiv{
+	position: absolute;
+	top: 20%;
+	height:100%;
+	width:90%;
+	margin-left:5%;
+}
+.personDiv{
+	position: absolute;
+	top: 15%;
+	height:100%;
+	width:90%;
+	margin-left:5%;
+}
+.new{
+	background-color: #ee6e73;
+	text-align: center;
+}
+.switch label{
+	position: absolute !important;
+	margin: 0 auto !important;
+}
+.personItemName{
+	color: #ee6e73;
+}
+i{
+	cursor: pointer;
+}
+.dateDiv{
+	display: none;
+}
+.itemPersonData{
+	height:100% !important;
+	max-height: 100% !important;
+}
+.nav-extended{
+	position: fixed !important;
+	z-index:100;
+}
+.addModal{
+	height: auto !important;
+	max-height: 100% !important;
+}
+.personPaymentData{
+	padding: 5px !important;
+}
