@@ -282,3 +282,37 @@ function loadIndividualItemRecentData(){
 			document.getElementById("individualItemPaymentList").innerHTML = data;
 		});
 }
+function openChangePassword(){	
+	document.getElementById("currentPassword").value = '';
+	document.getElementById("newPassword").value = '';
+	document.getElementById("retypeNewPassword").value = '';
+	$("#changePassword").modal('open');
+}
+function changePassword(){
+	var currentPassword = document.getElementById("currentPassword").value;
+	var newPassword = document.getElementById("newPassword").value;
+	var retypeNewPassword = document.getElementById("retypeNewPassword").value;
+	if(currentPassword == '' || newPassword == '' || retypeNewPassword == ''){
+		M.toast({html: 'Please fill up all fields.'});
+		return;
+	}
+	if(newPassword != retypeNewPassword){
+		M.toast({html: 'The passwords do not match.'});
+		M.toast({html: 'Please try again.'});
+		document.getElementById("newPassword").value = '';
+		document.getElementById("retypeNewPassword").value = '';
+		return;
+	}
+	$.post("changePassword.php",{currentPassword: currentPassword,newPassword: newPassword},function(data){
+		if(data == 1){
+			M.toast({html: 'Password has been successfully changed.'});
+			$("#changePassword").modal('open');
+		}
+		else if(data == 0){
+			M.toast({html: 'The current password entered is incorrect.'});	
+		}
+		else if(data == -1){
+			M.toast({html: 'Failed! Please try again later.'});	
+		}
+	});
+}

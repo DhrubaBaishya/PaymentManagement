@@ -28,6 +28,7 @@ if (!isset($_SESSION['username'])){
     <li><a class="sidenav-close" onclick="openAddItem()"><i class="material-icons">payment</i>Add Item Payment</a></li>
     <li><a class="sidenav-close" onclick="openPersonSearch()"><i class="material-icons">search</i>Search Person</a></li>
     <li><a class="sidenav-close" onclick="openItemSearch()"><i class="material-icons">search</i>Search Item</a></li>
+    <li><a class="sidenav-close" onclick="openChangePassword()"><i class="material-icons">phonelink_lock</i>Change Password</a></li>
     <li><a onclick="logout()"><i class="material-icons">power_settings_new</i>Logout</a></li>
   </ul>
 
@@ -422,6 +423,23 @@ if (!isset($_SESSION['username'])){
     </div>
    </div> 
 
+   <div id="changePassword" class="itemPersonData modal bottom-sheet modal-fixed-footer">
+    <div class="modal-content personPaymentData">
+      <div class="row">
+          <div class="input-field col s12">
+            <input id="currentPassword" placeholder="Current Password" type="password" class="validate">
+        <input id="newPassword" placeholder="New Password" type="password" class="validate">
+        <input id="retypeNewPassword" placeholder="Re-enter Password" type="password" class="validate">
+          </div>
+       </div>
+    </div>
+
+    <div class="modal-footer">
+      <a class="waves-effect waves-green btn-flat" onclick="changePassword()">Change</a>
+        <a class="modal-close waves-effect waves-green btn-flat">Close</a>
+    </div>
+   </div>
+
    <div id="deleteWarning" class="modal">
     <div class="modal-content">
     	<h4>Delete Warning!</h4>
@@ -435,7 +453,7 @@ if (!isset($_SESSION['username'])){
    </div> 
   
   <script type="text/javascript" src="../js/jquery-3.js"></script>
-  <script type="text/javascript" src="js/index.js?24072018"></script>
+  <script type="text/javascript" src="js/index.js?02122018"></script>
   <script type="text/javascript" src="../material/js/materialize.min.js"></script>
 </body>
 </html>

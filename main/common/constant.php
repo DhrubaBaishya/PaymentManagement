@@ -3,6 +3,7 @@ session_name("pay-man");
 session_set_cookie_params ( 0, '/',  'pay-man.in');
 session_start();
 define('CHECK_USER_EXISTENCE','SELECT USER_ID FROM user_details WHERE USERNAME = ? AND PASSWORD = ? AND ACTIVE = 1');
+define('CHANGE_PASSWORD','UPDATE user_details SET PASSWORD = ? WHERE USER_ID = ?');
 define('CHECK_PERSON_EXISTENCE','SELECT PERSON_ID FROM person_details WHERE PERSON_NAME = ?');
 define('INSERT_PERSON_PAYMENT',"INSERT INTO payment_details(PAYMENT_ID,CATEGORY_NAME,PERSON_ID,AMOUNT,REMARK,DATE) VALUES(?,'PERSON',?,?,?,?)");
 define('INSERT_PERSON','INSERT INTO person_details(PERSON_ID,PERSON_NAME) VALUES(?,?)');
