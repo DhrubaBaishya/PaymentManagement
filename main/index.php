@@ -453,7 +453,7 @@ if (!isset($_SESSION['username'])){
    </div> 
   
   <script type="text/javascript" src="../js/jquery-3.js"></script>
-  <script type="text/javascript" src="js/index.js?02122018"></script>
+  <script type="text/javascript" src="js/index.js?02122018.1"></script>
   <script type="text/javascript" src="../material/js/materialize.min.js"></script>
 </body>
 </html>

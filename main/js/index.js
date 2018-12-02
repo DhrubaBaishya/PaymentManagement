@@ -306,7 +306,7 @@ function changePassword(){
 	$.post("changePassword.php",{currentPassword: currentPassword,newPassword: newPassword},function(data){
 		if(data == 1){
 			M.toast({html: 'Password has been successfully changed.'});
-			$("#changePassword").modal('open');
+			$("#changePassword").modal('close');
 		}
 		else if(data == 0){
 			M.toast({html: 'The current password entered is incorrect.'});	
